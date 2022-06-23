@@ -1,0 +1,82 @@
+.projects {
+    min-height: 300px;
+    padding-top: 16px;
+    padding-bottom: 36px;
+    padding-right: 16px;
+    padding-left: 16px;
+    background: $bg-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    &__wrapper {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    &__item {
+        position: relative;
+        min-height: 150px;
+        min-width: 100%;
+        text-align: left;
+        background: $promo-color;
+        padding: 16px;
+        border-radius: 1rem;
+        &:nth-child(1) {
+            margin-top: 24px;
+        }
+        &:after {
+            content: url('../img/logo/iconO.png');
+            position: absolute;
+            top: 75%;
+            right: 4%;
+            transform: translate(50%, -50%);
+            opacity: 0.100;
+        }
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__xtrawrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        &__title {
+            position: relative;
+            font-weight: 700;
+            font-size: $subtitle-size;
+            line-height: 1;
+            color: $font-color;
+            z-index: 1;
+            &:before {
+                content:"";
+                display: inline-block;
+                min-height: 30px;
+                min-width: 30px;
+                background: $pending-color;
+                border-radius: 100%;
+                position: absolute;
+                top: -8px;
+                left: -8px;
+                z-index: -1;
+            }
+        }
+        &__descr {
+            margin-top: 16px;
+            color: $font-color;
+        }
+        &__badges {
+            min-width:25%;
+            display: flex;
+            justify-content: flex-end;
+            align-self: flex-start;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+    }
+}

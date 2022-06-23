@@ -1,0 +1,27 @@
+.partners {
+    min-height: 300px;
+    padding-top: 16px;
+    padding-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 36px;
+        flex-wrap: wrap;
+    }
+    &__item {
+        height: 150px;
+        width: 150px;
+    } img {
+        width: 100%;
+        filter: grayscale(1);
+        transition: $standart-transition;
+        &:hover {
+            filter: grayscale(0);
+            transform: scale(1.03, 1.03);
+        }
+    }
+}

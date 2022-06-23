@@ -1,0 +1,35 @@
+.button {
+    padding: 12px 16px;
+    border-radius: 4px;
+    min-width: 144px;
+    transition: $standart-transition;
+    font-size: $heading-size;
+    &:focus {
+        outline: none;
+    }
+    &_primary {
+        border: 1px solid transparent;
+        background: $promo-color;
+        color: $primary-color;
+        &:hover {
+            box-shadow: $hover-shadow;
+        }
+    }
+    &_secondary {
+        border: 1px solid $promo-color;
+        background: transparent;
+        color: $promo-color;
+        &:hover {
+            box-shadow: $hover-shadow;
+            background: $promo-color;
+            color: $primary-color;
+        }
+    }
+    &_success {
+        border: 1px solid $success-color;
+        background: $success-color;
+        color: $primary-color;
+        font-size: 0px;
+    }
+}
+

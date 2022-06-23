@@ -1,0 +1,149 @@
+{
+  "NAV_ITEMS_LIST": {
+    "MAIN": {
+      "ancor": "main",
+      "path": "/",
+      "attributes": "",
+      "title": "Main | rōkk:work",
+      "isTurnedOn": "true"
+    },
+    "WORKS": {
+      "ancor": "works",
+      "path": "#works",
+      "attributes": "",
+      "title": "Works | rōkk:work",
+      "isTurnedOn": "true"
+    },
+    "PARTNERS": {
+      "ancor": "partners",
+      "path": "#partners",
+      "attributes": "",
+      "title": "Parners | rōkk:work",
+      "isTurnedOn": "true"
+    },
+    "SERVICES": {
+      "ancor": "services",
+      "path": "#services",
+      "attributes": "",
+      "title": "Services | rōkk:work",
+      "isTurnedOn": "true"
+    },
+    "TOOLS": {
+      "ancor": "tools",
+      "path": "/tools",
+      "attributes": "",
+      "title": "Tools | rōkk:work",
+      "isTurnedOn": "false"
+    },
+    "ABOUT": {
+      "ancor": "about",
+      "path": "#about",
+      "attributes": "",
+      "title": "About | rōkk:work",
+      "isTurnedOn": "false"
+    },
+    "CONTACTS": {
+      "ancor": "contacts",
+      "path": "#contacts",
+      "attributes": "",
+      "title": "Contacts | rōkk:work",
+      "isTurnedOn": "true"
+    },
+    "BLOG": {
+      "ancor": "blog",
+      "path": "/blog",
+      "attributes": "target='_blank'",
+      "title": "Blog Posts | rōkk:work",
+      "isTurnedOn": "false"
+    }
+  },
+  "FONT_STYLE": "Nunito Sans",
+  "PROMO_SUBTITLE_TEXT": "web development & management",
+  "PARTNERS_HEADING_TITLE_TEXT": "partners",
+  "PROJECTS_HEADING_TITLE_TEXT": "projects",
+  "SERVICES_HEADING_TITLE_TEXT": "services",
+  "CONTACTS_HEADING_TITLE_TEXT": "contact us",
+  "CONTACTS_HEADING_SUBTITLE_TEXT": "FILL OUT THE FORM AND WE WILL CONTACT YOU SHORTLY",
+  "INPUT_NAME_PLACEHOLDER": "Your name",
+  "INPUT_EMAIL_PLACEHOLDER": "Your e-mail",
+  "INPUT_TEXT_PLACEHOLDER": "Message text...",
+  "FORM_BTN_TEXT": "Send message",
+  "LOCALIZE_TOGGLER": {
+    "TEXT": "EN <span class='material-symbols-outlined'>expand_more</span>",
+    "LONGTEXT": "English"
+  },
+  "PROMO_BUTTON_PRIMARY_TEXT": "Works",
+  "PROMO_BUTTON_SECONDARY_TEXT": "Contact Us",
+  "PROJECTS": [
+    {
+      "id": 0,
+      "title": "Delivery time forecasting",
+      "description": "Development of a module to improve the level of customer service, the ability to adjust routes, predict delays.",
+      "badges": ["frontend", "backend"]
+    },
+    {
+      "id": 1,
+      "title": "Japanese cuisine delivery site",
+      "description": "Site development and release project management, support and maintenance, error correction, user feedback processing and customer experience.",
+      "badges": ["management", "support", "frontend"]
+    },
+    {
+      "id": 2,
+      "title": "Integration of iiko and Сheckbox",
+      "description": "Development and support of the custom module for the integration of the company's accounting system and cashier software",
+      "badges": ["backend", "support", "API"]
+    },
+    {
+      "id": 3,
+      "title": "Integration of iiko and Google DataStudio",
+      "description": "Create and maintain dashboards with key business indicators using Google's DataStudio",
+      "badges": ["API", "backend", "support"],
+      "link": ""
+    },
+    {
+      "id": 4,
+      "title": "Connecting the restaurant to the GetOrder system",
+      "description": "Project management for the tripartite integration of restaurant delivery, Glovo service and GetOrder service",
+      "badges": ["management"],
+      "link": ""
+    }
+  ],
+  "SERVICES": [
+    {
+      "id": "0",
+      "title": "Frontend",
+      "description": "Layout of websites, landings, web-applications.",
+      "iconUrl": "icons/services/frontend.png"
+    },
+    {
+      "id": "1",
+      "title": "support",
+      "description": "Technical support of the project, training of employees",
+      "iconUrl": "icons/services/support.png"
+    },
+    {
+      "id": "2",
+      "title": "Project management",
+      "description": "Full support for the development of your product",
+      "iconUrl": "icons/services/management.png"
+    },
+    {
+      "id": "3",
+      "title": "Integrations",
+      "description": "Develop and support the integration of your business with web services",
+      "iconUrl": "icons/services/integration.png"
+    },
+    {
+      "id": "4",
+      "title": "Backend",
+      "description": "Development of the server part of your site or application",
+      "iconUrl": "icons/services/backend.png"
+    },
+    {
+      "id": "5",
+      "title": "Design",
+      "description": "Creating a design layout for your project",
+      "iconUrl": "icons/services/design.png"
+    }
+  ]
+}

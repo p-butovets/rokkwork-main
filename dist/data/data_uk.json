@@ -1,0 +1,152 @@
+{
+  "NAV_ITEMS_LIST": {
+    "MAIN": {
+      "ancor": "Головна",
+      "path": "/",
+      "attributes": "",
+      "title": "Головна | rōkk:work",
+      "isTurnedOn": "true"
+    },
+    "WORKS": {
+      "ancor": "Проекти",
+      "path": "#works",
+      "attributes": "",
+      "title": "Проекти | rōkk:work",
+      "isTurnedOn": "true"
+    },
+    "PARTNERS": {
+      "ancor": "Партнери",
+      "path": "#partners",
+      "attributes": "",
+      "title": "Партнери | rōkk:work",
+      "isTurnedOn": "true"
+    },
+    "SERVICES": {
+      "ancor": "Можливості",
+      "path": "#services",
+      "attributes": "",
+      "title": "Можливості | rōkk:work",
+      "isTurnedOn": "true"
+    },
+    "TOOLS": {
+      "ancor": "Інструменти",
+      "path": "/tools",
+      "attributes": "",
+      "title": "Інструменти | rōkk:work",
+      "isTurnedOn": "false"
+    },
+    "ABOUT": {
+      "ancor": "Про нас",
+      "path": "#about",
+      "attributes": "",
+      "title": "Про нас | rōkk:work",
+      "isTurnedOn": "false"
+    },
+    "CONTACTS": {
+      "ancor": "Контакти",
+      "path": "#contacts",
+      "attributes": "",
+      "title": "Контакти | rōkk:work",
+      "isTurnedOn": "true"
+    },
+    "BLOG": {
+      "ancor": "Блог",
+      "path": "/blog",
+      "attributes": "target='_blank'",
+      "title": "Блог | rōkk:work",
+      "isTurnedOn": "false"
+    }
+  },
+  "FONT_STYLE": "Nunito Sans",
+  "PROMO_SUBTITLE_TEXT": "web розробка та підтримка",
+  "PARTNERS_HEADING_TITLE_TEXT": "Наші партнери",
+  "PROJECTS_HEADING_TITLE_TEXT": "Проекти",
+  "SERVICES_HEADING_TITLE_TEXT": "Можливості",
+  "CONTACTS_HEADING_TITLE_TEXT": "Напишіть нам",
+  "CONTACTS_HEADING_SUBTITLE_TEXT": "Заповніть форму та ми зв'яжемося з вами найближчим часом",
+  "INPUT_NAME_PLACEHOLDER": "Ваше ім'я",
+  "INPUT_EMAIL_PLACEHOLDER": "Ваше імейл",
+  "INPUT_TEXT_PLACEHOLDER": "Текст повідомлення...",
+  "FORM_BTN_TEXT": "Відправити",
+  "LOCALIZE_TOGGLER": {
+    "TEXT": "UA <span class='material-symbols-outlined'>expand_more</span>",
+    "LONGTEXT": "Україньска"
+  },
+  "PROMO_BUTTON_PRIMARY_TEXT": "Проекти",
+  "PROMO_BUTTON_SECONDARY_TEXT": "Зв'язатись з нами",
+  "PROJECTS": [
+    {
+      "id": 0,
+      "title": "Прогноз точного часу доставки",
+      "description": "Розробка модуля для покращення рівня клієнтьского сервісу, можливості коригування маршрутів, прогнозування запізнень.",
+      "badges": ["frontend", "backend"],
+      "link": ""
+    },
+    {
+      "id": 1,
+      "title": "Сайт доставки японської кухні",
+      "description": "Менеджмент проекту розробки та релізу сайту, підтримка та супроводження роботи, виправлення помилок, обробка фідбеку від користувачів та покарщення клієнтського досвіду.",
+      "badges": ["support", "frontend", "management"],
+      "link": ""
+    },
+    {
+      "id": 2,
+      "title": "Інтеграція  iiko та Сheckbox",
+      "description": "Розробка та підтримка роботи кастомного модуля інтеграціі системи обліку компанії та програмного РРО.",
+      "badges": ["backend", "support", "API"],
+      "link": ""
+    },
+    {
+      "id": 3,
+      "title": "Інтеграція iiko та Google DataStudio",
+      "description": "Створення та підтримка дашбордів з основними показниками бізнесу за допомогою DataStudio від Google",
+      "badges": ["API", "backend", "support"],
+      "link": ""
+    },
+    {
+      "id": 4,
+      "title": "Проект підключення ресторану до системи GetOrder",
+      "description": "Менеджмент проекту з тристоронньої інтеграції ресторану доставки, сервісу Glovo та сервісу GetOrder",
+      "badges": ["management"],
+      "link": ""
+    }
+  ],
+  "SERVICES": [
+    {
+      "id": "0",
+      "title": "Frontend",
+      "description": "Верстка веб-сайтів, лендінгів, web-застосунків. ",
+      "iconUrl": "icons/services/frontend.png"
+    },
+    {
+      "id": "1",
+      "title": "Підтримка",
+      "description": "Технічна підтримка проекту, навчання працівників",
+      "iconUrl": "icons/services/support.png"
+    },
+    {
+      "id": "2",
+      "title": "Менеджмент проекту",
+      "description": "Повний супровід розробки вашоі хотєлки",
+      "iconUrl": "icons/services/management.png"
+    },
+    {
+      "id": "3",
+      "title": "Інтеграції",
+      "description": "Розробка та підтримка інтеграцій вашого бізнесу с веб-сервісами",
+      "iconUrl": "icons/services/integration.png"
+    },
+    {
+      "id": "4",
+      "title": "Backend",
+      "description": "Розробка сервоерної частини вашого сайту або застосунку",
+      "iconUrl": "icons/services/backend.png"
+    },
+    {
+      "id": "5",
+      "title": "Дізайн",
+      "description": "Розробка макету дизайну вашого проекту",
+      "iconUrl": "icons/services/design.png"
+    }
+  ]
+}

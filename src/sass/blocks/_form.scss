@@ -1,0 +1,52 @@
+.main-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px 8px;
+    grid-template-areas:
+        "name email"
+        "text text"
+        "text text"
+        "btn_submit btn_reset";
+} 
+input, textarea, select, text{
+    border-radius: 4px;
+    border: 1px solid transparent;
+    padding: 8px;
+    outline: none;
+    height: 100%;
+    font-size: $heading-size;
+    &:focus {
+        border: 1px solid $pending-color;
+    }
+}
+.name {
+    grid-area: name;
+    position: relative;
+} #name {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.email {
+    grid-area: email;
+} #email {
+    width: 100%;
+}
+.text {
+    grid-area: text;
+} #text {
+    width: 100%;
+    resize: none;
+}
+.btn_submit {
+    grid-area: btn_submit;
+} #btn_submit {
+    width: 100%;
+}
+.btn_reset {
+    grid-area: btn_reset;
+} #btn_reset {
+    width: 100%;
+}

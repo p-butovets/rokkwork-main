@@ -1,0 +1,11 @@
+.badge {
+    font-size: $text-size;
+    border: 1px solid transparent;
+    padding: 0.1em 0.6em;
+    border-radius: 2rem;
+    font-weight: 400;
+    color: $promo-color;
+    &_primary {
+        background-color: $primary-color;
+    }
+}

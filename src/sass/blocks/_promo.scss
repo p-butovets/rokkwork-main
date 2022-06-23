@@ -1,0 +1,35 @@
+.promo {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    gap: 120px;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+    background: $primary-color;
+    background-image: $primary-gradient;
+    &__title {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        font-size: $title-size;
+        font-weight: 700;
+        width: 60%;
+        align-self: center;
+    } span {
+        color: $pending-color;
+    }
+    &__subtitle {
+        text-align: center;
+        color: #fff;
+        font-size: $subtitle-size;
+        font-weight: 700;
+    }
+    &__buttons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,27 @@
+.footer {
+    min-height: 100px;
+    background: #171112;
+    padding-left: 36px;
+    padding-right: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+        max-width: 140px;
+    } img {
+        width: 100%;
+    }
+    &__credits {
+        color: $promo-color;
+        font-size: $text-size;
+    }
+    &__link {
+        text-decoration: none;
+        color: $promo-color;
+        transition: $standart-transition;
+        &:hover {
+            text-decoration: underline;
+            color: $pending-color;
+        }
+    }
+}

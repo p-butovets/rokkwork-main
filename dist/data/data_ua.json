@@ -1,0 +1,40 @@
+{
+    "NAV_ITEMS_LIST": {
+        "MAIN": {
+            "ancor" : "Головна",
+            "path": "/",
+            "attributes": "",
+            "title": "Головна | rōkk:work"
+        },
+        "WORKS": {
+            "ancor" : "Проекти",
+            "path": "#works",
+            "attributes": "",
+            "title": "Проекти | rōkk:work"
+        },
+        "TOOLS": {
+            "ancor" : "Інструменти",
+            "path": "/tools",
+            "attributes": "",
+            "title": "Інструменти | rōkk:work"
+        },
+        "ABOUT": {
+            "ancor" : "Про нас",
+            "path": "#about",
+            "attributes": "",
+            "title": "Про нас | rōkk:work"
+        },
+        "CONTACTS": {
+            "ancor" : "Контакти",
+            "path": "#contacts",
+            "attributes": "",
+            "title": "Контакти | rōkk:work"
+        },
+        "BLOG": {
+            "ancor" : "Блог",
+            "path": "/blog",
+            "attributes": "target='_blank'",
+            "title": "Блог | rōkk:work"
+        }
+    }
+}

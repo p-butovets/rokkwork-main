@@ -1,0 +1,124 @@
+@media (max-width: 991px) {
+    .partners__item {
+        height: 130px;
+    }
+    .contacts {
+        padding: 16px;
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+        }
+        &__text-part {
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .partners__item {
+        height: 110px;
+    }
+    .header {
+        grid-template-columns: 10% 1fr 7% 5%;
+    }
+    .header__nav__item {
+        display: none;
+    }
+    .projects__item:after {
+        top: 57%;
+        right: 8%;
+    }
+    .partners__wrapper {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .promo__title {
+        font-size: 44px;
+    }
+
+    .heading__title {
+        font-size: 18px;
+        padding-bottom: 3px;
+        border-bottom: 2px solid $font-color;
+    }
+
+    .contacts .heading__title {
+        border-bottom: 2px solid $promo-color;
+    }
+    
+    .mob__nav {
+        width: 85vw;
+    }
+
+    .partners {
+        &__item {
+            height: 100px;
+            width: 100px;
+        }
+        &__wrapper {
+            align-items: center;
+            gap: 0;
+        }
+    }
+    .header {
+        grid-template-columns: 10% 1fr 30% 5%;
+    }
+    .lang-toggler__list {
+        right: 17%;
+    }
+    .projects__item:after {
+        top: 56%;
+        right: 14%;
+    }
+    .projects__item__title {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 320px) {~
+    .promo {
+        &__title {
+            font-size: 36px;
+        }
+        &__subtitle {
+            font-size: 24px;
+        }
+    }
+    .button {
+        min-width: 120px;
+    }
+}
+
+@media (max-width: 280px) {
+    .header {
+        grid-template-columns: 10% 1fr 40% 5%;
+    }
+    .lang-toggler__list {
+        right: 20%;
+    }
+    .projects__item__title {
+        font-size: 23px;
+    }
+    .projects__item {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    .heading__title {
+        font-size: 31px;
+    }
+    .button {
+        font-size: 11px;
+    }
+    .footer {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}
+
+@media (min-width: 2056px) {
+}

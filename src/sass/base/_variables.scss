@@ -1,0 +1,31 @@
+$standart-transition: all 0.4s;
+$hover-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+//Colors
+$primary-color: #0083ff;
+$primary-gradient: linear-gradient(109.6deg, rgba(62, 161, 219, 1) 11.2%, rgba(93, 52, 236, 1) 100.2%);
+$secondary-color: #36d1d5;
+
+$text-color: #6a6a6b;
+$font-color: #000;
+
+$success-color: #22b26c;
+$success-gradient: radial-gradient(circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90%);
+
+$pending-color: #ffcd20;
+$pending-gradient: radial-gradient(circle farthest-corner at 10% 20%, rgba(253, 193, 104, 1) 0%, rgba(251, 128, 128, 1) 90%);
+
+$error-color: #fe735c;
+$error-gradient: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+
+$unactive-color: #bfcacc;
+
+$bg-color: #E7EEF3;
+
+$promo-color: #fff;
+
+//Font size
+$title-size: 48px;
+$subtitle-size: 36px;
+$heading-size: 16px;
+$text-size: 12px;
